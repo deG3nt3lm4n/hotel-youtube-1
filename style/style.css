@@ -1,0 +1,276 @@
+/* Reset stlye */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.8em;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* utitily */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.l-heading {
+  font-size: 2.9rem;
+}
+
+.text-primary {
+  color: #C3762B;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #C3762B;
+  color: #2E1B1D;
+}
+
+.btn-dark {
+  color: #C3762B;
+  background-color: #2E1B1D;
+}
+
+.bg-dark {
+  background-color: #2E1B1D;
+  color: #fff;
+}
+
+.bg-light {
+  background-color: #E1DCCE;
+  color: #2E1B1D;
+}
+
+.bg-primary {
+  background-color: #C3762B;
+  color: #2E1B1D;
+}
+
+.btn-light {
+  background-color: #968778;
+}
+
+.clr {
+  clear: both;
+}
+
+/* navbar */
+#main-navbar {
+  background-color: #968778;
+  color: #fff;
+}
+
+#main-navbar .logo {
+  float: left;
+  padding: 20px;
+  font-size: 29px;
+}
+
+#main-navbar ul {
+  float: right;
+}
+
+#main-navbar ul li {
+  float: left;
+  padding: 20px;
+}
+
+#main-navbar ul li:hover,
+.current {
+  color: #fff;
+  background-color: #2E1B1D;
+}
+
+/* Hero section */
+#hero-section {
+  background: url('../img/hero.jpg') no-repeat center center/cover;
+  color: #fff;
+  height: 600px;
+}
+
+#hero-section .hero-content {
+  text-align: center;
+  padding-top: 180px;
+}
+
+#hero-section .lead {
+  font-size: .9rem;
+  padding-bottom: 20px;
+}
+
+/* about section */
+#about-section {
+  height: 400px;
+}
+
+#about-section .about-section-img {
+  background: url('../img/photo\ 1.jpg') no-repeat center center/cover;
+  width: 50%;
+  min-height: 100%;
+  float: left;
+}
+
+#about-section .about-section-content {
+  text-align: center;
+  float: right;
+  width: 50%;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+.about-section-content h3 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.about-section-content p {
+  line-height: 1.5em;
+  padding-bottom: 20px;
+}
+
+/* Features */
+.box {
+  width: 33.3%;
+  float: left;
+  padding: 20px;
+  text-align: center;
+}
+
+.box i {
+  padding-bottom: 5px;
+}
+
+
+
+/* main About section */
+#main-about {
+  padding: 30px 0;
+}
+
+#main-about .left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  padding: 0 20px;
+}
+
+#main-about .left p {
+  padding-bottom: 10px;
+}
+
+#main-about .right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+  text-align: center;
+}
+
+#main-about .right img {
+  display: block;
+  border-radius: 50%;
+  width: 80%;
+  height: 300px;
+  margin: auto;
+}
+
+/* testimonails seciton */
+#testimonials {
+  background: url('../img/testimonal.jpg') no-repeat center center/cover;
+  height: 600px;
+  color: #fff;
+  padding-top: 100px;
+}
+
+#testimonials h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+#testimonials .testimonial {
+  margin-bottom: 40px;
+  padding: 20px;
+  opacity: .9;
+  border-radius: 5px;
+}
+
+#testimonials .testimonial img {
+  width: 100px;
+  float: left;
+  margin-right: 10px;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+/* contact form section page */
+#contact-form {
+  padding: 30px 0;
+}
+
+#contact-form .form-control {
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+#contact-form .form-control label {
+  display: block;
+}
+
+#contact-form .form-control input,
+#contact-form .form-control textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+#contact-form .form-control input:focus,
+#contact-form .form-control textarea:focus {
+  border: 1px solid #C3762B;
+  outline: none;
+
+}
+
+#contact-form .form-control textarea {
+  height: 200px;
+}
+
+
+#contact-info {
+  overflow: hidden;
+}
+
+/* footer */
+#main-footer {
+  padding: 20px;
+  background-color: #968778;
+  color: #fff;
+  text-align: center;
+}
